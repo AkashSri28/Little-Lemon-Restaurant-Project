@@ -1,0 +1,88 @@
+@media screen and min-width(40em)) {
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card{
+        flex: 0 1 calc(33% - 1em);
+    }
+    
+}
+
+#footer-img{
+    width: 30px;
+}
+
+#header-img{
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    flex: 0 1 calc(33% - 1em);
+    background-color: #A9AF7E;
+    padding: 20px 30px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.offer{
+    background-color: #7D8F69;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #557153;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+li{
+
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav, main, header{
+    margin: 10px 30px;
+}
+
+footer{
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
